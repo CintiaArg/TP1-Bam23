@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1 class=".textoCentrado" id="titulo">Mi formulario de Contacto</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="./sobre-mi.html">Sobre Mi</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required placeholder="Ingrese su nombre y apellido">
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="text" id="correoelectronico" class="input-padron" required placeholder="Ingrese su correo electronico">
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" class="input-padron" required placeholder="Ingrese su telefono">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="40" rows="2" class="input-padron" required placeholder="Ingrese su mensaje"></textarea>
+            </form>
+        </div>
+    </main>
+</html>
